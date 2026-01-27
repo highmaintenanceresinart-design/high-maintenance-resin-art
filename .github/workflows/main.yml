@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>High Maintenance Resin</title>
+  <meta name="description" content="Luxury handmade resin art with glitter, crystals, geode-inspired designs, and iridescent finishes." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand">High Maintenance Resin</div>
+      <div class="links">
+        <a href="#gallery">Gallery</a>
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="hero-inner">
+      <h1>Iridescent. Luxurious. Handmade.</h1>
+      <p>
+        Glitter-drenched resin art inspired by crystals, geodes, and high-glam energy.
+        Made to sparkle like you do.
+      </p>
+
+      <div class="cta">
+        <a class="btn" href="#shop">Shop on Etsy</a>
+        <a class="btn btn-outline" href="#contact">Custom Order</a>
+      </div>
+
+      <div class="chips">
+        <span>Geode + Crystal Style</span>
+        <span>Iridescent + Glitter</span>
+        <span>Handmade in USA</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="gallery" class="section">
+      <h2>Featured Pieces</h2>
+      <p class="sub">Replace these placeholders with your real photos (I’ll show you the fastest way).</p>
+
+      <div class="grid">
+        <div class="card">
+          <div class="ph">Photo 1</div>
+          <div class="meta">
+            <div class="title">Crystal Coasters</div>
+            <div class="desc">Iridescent shine + gemstone edges.</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="ph">Photo 2</div>
+          <div class="meta">
+            <div class="title">Geode Tray</div>
+            <div class="desc">Glitter core, luxe finish.</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="ph">Photo 3</div>
+          <div class="meta">
+            <div class="title">Custom Name Piece</div>
+            <div class="desc">Made to order, one-of-one.</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="ph">Photo 4</div>
+          <div class="meta">
+            <div class="title">Statement Set</div>
+            <div class="desc">Bold sparkle, clean lines.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="shop" class="section">
+      <h2>Shop</h2>
+      <p class="sub">
+        Link your Etsy + Instagram here. Once you send the links, I’ll wire them in.
+      </p>
+
+      <div class="shop-row">
+        <div class="shop-card">
+          <h3>Etsy Store</h3>
+          <p>Ready-to-ship pieces + seasonal drops.</p>
+          <a class="btn" href="#" aria-label="Etsy link placeholder">Add Etsy Link</a>
+        </div>
+
+        <div class="shop-card">
+          <h3>Instagram</h3>
+          <p>New pours, behind-the-scenes, custom inspo.</p>
+          <a class="btn btn-outline" href="#" aria-label="Instagram link placeholder">Add Instagram Link</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p class="sub">
+        High Maintenance Resin is luxury resin art with crystal-inspired design—bold sparkle, premium finish,
+        and feminine energy. Every piece is hand-poured and finished for a clean, glassy shine.
+      </p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Custom Orders</h2>
+      <p class="sub">
+        Want a custom colorway, name, initials, or a matching set? Message us on Instagram or request a custom order on Etsy.
+      </p>
+      <div class="cta">
+        <a class="btn" href="#shop">Start a Custom Order</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>© <span id="y"></span> High Maintenance Resin</div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
